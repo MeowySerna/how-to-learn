@@ -18,7 +18,10 @@
   text-decoration: none;
   color: #2f80ed;
 }
-
+.logo {
+  width: 228px;
+  height: 32px;
+}
 
 
 /*HEADER*/
@@ -197,7 +200,7 @@
 .faynman {
   background-color: #f2f2f2;
   position: relative;
-  height: 757px;
+  height: 890px;
 }
 
 .faynman-content {
@@ -270,6 +273,60 @@
   position: absolute;
   right: -210px;
   z-index: 0;
+}
+
+
+/*FOOTER*/
+.footer {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  color: white;
+  padding: 18px 0;
+}
+.footer__title{
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-links {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__link{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__link-icon{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 
